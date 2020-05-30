@@ -1,155 +1,541 @@
-/*Limpar formatações padrão*/
 * {
 	margin: 0;
 	padding: 0;
-
 }
 
 body {
-	font-size: 1em;
-	font-family: "Trebuchet", Helvetica, sans-serif;
-	background: #e6e6e6;
-
-}
-
-/*
-****   Layout   ****
-*/
-#area-cabecalho {
-	background-color: #f7b600;
-	padding: 15px;
-	text-align: center;
-
-
-}
-
-#area-logo, #area-menu  {
-	padding: 10px;
-
-}
-
-#area-principal {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	
-	width: 920px;
-	margin: auto;
-	margin: 0 auto;
-	padding: 15px;
+}
 
+ul li{
+	list-style-type:   none;
+}
+
+a {
+	text-decoration:none;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	background: #F87C08;
+	color: #fff;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#container_principal {
+	width: 100%;
+	min-width: 360px;
+}
+
+
+/*Topo*/
+#logo {
+	width: 250px;
+	float: left;
+
+}
+
+#topo {
+	height: 105px;
+
+}
+
+#logo img{
+	width: 130px;
+	margin-left: 50px;
 
 }
 
 
+/*Menu*/
 
-#area-postagens {
-	width: 660px;
+#menu ul{
+	line-height: 25px;
+	float: right;
+	width: 613px;
+	position: relative;
+	top: -60px;
+	right: 20px;
+}
+
+
+#menu li {
+	font-size: 12pt;
+	float: left;
+	padding: 5px 25px;
+}
+
+/*Inicio Hover*/
+
+#menu li:hover {
+	background: #F87C08;
+	cursor: pointer;
+	color: #fff;
+}
+
+/*Fim Hover*/
+/*Fim Menu*/
+
+/*Fim topo*/
+
+/*Capa*/
+
+#capa {
+	height: 460px;
+	
+}
+#capa img{
+	position: relative;
+	top: -35px;
+	margin-top: 10px;
+}
+
+#texto_capa {
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+	top: -350px;
+	
+}
+
+#texto_capa h2,h1{
+	
+	color:#fff;
+	font-size: 2em;
+	text-align: left;
+	background:gray;
+	display: inline-block; 
+	padding: 10px;
+	border-radius: 4px 4px 4px;
+
+}
+
+#texto_capa h1 {
+	font-size: 3.5em;
+}
+
+#botao_orcamento button{
+	margin-top: 45px;
+	width: 300px;
+	background: #F87C08;
+	padding: 25px;
+}
+
+
+
+
+#botao_orcamento p {
+	color: #fff;
+	font-size: 16px;
+}
+
+/*Fim Capa*/
+
+/*Inicio Capa 2*/
+#capa2 {
+
+	
+	margin-top: 130px;
+	height: 505px;
+}
+
+.texto_capa2 {
+
+	text-align: left;
+	color:#fff;
+	font-size: 2em;
+	position: relative;
+	bottom: 250px;
+}
+/*Inicio Capa 2*/
+/*Conteudo*/
+
+#container {	
+	text-align:center; 
+	margin: 0 auto;
+	margin-top: 200px;
+
+
+	
+}
+#servicos h2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	
+	
+}
+
+#descricao_servicos p{
+
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+	
+}
+
+
+
+#galeria_servicos {
+	
+	margin:0px 0px 5px 5px; 
+	margin: 0 auto;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+#galeria_servicos li img{
+	border-radius: 6px 6px 6px 6px;
+	margin-top: 0px;
+	width: 370px;
+	margin-right:5px;
+	height: 270px;
+
+}
+
+#galeria_servicos li {
+	margin: 0px 10px;
 	float: left;
 }
 
+#galeria_servicos_2 {
+	margin:0px 0px 5px 5px; 
+	margin: 0 auto;
+	display: inline-block;
+	margin-top: 0px;
+	
+}
 
-#area-lateral {
+#galeria_servicos_2 li img{
+	margin-top: 0px;
+	width: 370px;
+	margin-right:5px;
+	height: 270px;
+	border-radius: 6px 6px 6px 6px;
+}
+
+#galeria_servicos_2 li {
+	margin: 0px 10px;
+	float: left;
+}
+
+/*Botão Servicos*/
+#botao_servicos {
+
+}
+
+#botao_servicos button{
+	margin-top: 15px;
 	width: 250px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+#botao_servicos p {
+	color: #fff;
+	font-size: 16px;
+}
+
+/*Inicio*/
+#depoimentos {
+	
+	margin: 30px 80px 0 80px;
+	
+}
+
+#depoimentos h2{
+	margin-top: 20px;
+}
+
+#depoimentos li img {
+	position: relative;
+	margin: 0 75px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+
+}
+#depoimentos ul li{
+	margin-top: -60px;
+	width: 300px;	
+	margin-bottom: 100px;
+	border-radius: 5px 5px 5px 5px;
+	margin-right: 42px;
+	margin-left:  42px;
+	
+}
+
+#depoimentos ul {
+	
+}
+.cards {
+	display: inline-block;
+	width: 100%;
+
+
+}
+.cards li {
+	float: left;
+
+
+}
+
+
+#depoimentos p{
+	margin-top: 10px;
+	text-align: center;
+
+}
+
+.nome_depoimento {
+	color: darkgray;
+}
+
+
+
+/*Contato*/
+
+#contato {
+	background: #F0F0F0;
+	height: 550px;
+
+}
+
+.dados {
+	
+	float: left;
+	margin: 100px 0px 10px 80px;
+	width: 50%; 
+	height: 400px;
+	
+}
+
+.dados img {
+	width: 130px;
+}
+
+/*Logos das Redes Sociais*/
+#redes {
+	
+	display: inline-block;
+	
+}
+
+#redes ul{
+	margin-top: 0;
+}
+
+#redes ul li {
+	margin-right: 15px;
+	float: left;
+
+}
+
+#redes li img{
+	border: 1px solid #c5c5c5;
+	width: 45px;
+	border-radius: 100%;
+}
+
+#descricao {
+	margin-top: 10px;
+	
+
+}
+
+#informacoes {
+
+	margin-top: 20px;
+}
+
+#informacoes img {
+
+	width: 30px;
+}
+
+#informacoes ul li {
+	margin-bottom: 15px;
+
+}
+
+
+
+/*Formulario*/
+
+.dados_formulario {
+	float: left;
+	margin:100px 80px 0px 0px;
+	width: 35%; 
+	height: 400px;
+	
+	
+	
+}
+
+
+#formulario input {
+	width: 390px;
+	padding: 15px;
+	margin-bottom: 10px;
+
+}
+
+#formulario textarea {
+	width: 422px;
+	height: 150px;
+	
+}
+
+#formulario button {
+	width: 110px;
+	height: 50px;
+	padding: 10px;
+	border: none;
+	margin-top: 15px;
+}
+
+/*Rodape*/
+
+#footer_geral {
+	background:#2A202A;
+
+}
+
+#footer_geral footer{
+	margin-left: 80px;
+	margin-bottom: 10px;
+
+}
+
+
+#conteudo_rodape {
+	margin: 0 80px;
+	display: inline-block;
+	
+	
+
+}
+
+#informacoes_rodape {
+	float: left;
+	width: 330px;
+	margin-right: 79px;
+	margin-top: 80px;
+		
+}
+
+#informacoes_rodape_3 {
+	float: left;
+	margin-top: 80px;
+		
+}
+
+#informacoes_rodape img{
+	width: 155px;
+
+	
+}
+
+
+
+
+.paragrafo_rodape {
+	color: #fff;
+}
+
+.texto_rodape p,ul, table{
+	margin-top: 90px;
+}
+
+.texto_rodape ul,table {
+	color: gray;
+}
+
+
+
+#informacoes_rodape_3 table{
+	margin-top: 78px;
+}
+
+.lista_rodape li:hover{
+	color: #fff;
+	
+}
+
+.texto_rodape li{
+	margin-bottom: 15px;
+
+}
+
+.lista_rodape li {
+	list-style-type: circle;
+}
+
+/*HORARIOS*/
+
+.horarios {
 	float: right;
 }
 
-.postagem  {
-	padding: 20px;
-	margin-bottom: 20px;
-	background: white;
-
-
+th {
+	text-align:left;
+	color: #fff;
 }
 
-.conteudo-lateral {
-	background: white;
-	padding: 10px;
-	margin-bottom: 10px;
+
+td {
+	height: 35px;
 
 }
 
 
-.postagem-lateral {
-	font-size: 0.8em;
-	padding: 5px;
-	border-bottom:  1px dotted #CCC;
+
+/*Footer*/
+
+footer {
+	background:#2A202A;
+	
+	
+
 }
 
+footer p{
+	margin-left: 80px;
+	line-height: 80px;
+}
+
+/*Rodape*/
 
 #rodape {
-	clear: both;
+	margin: 90px 0 50px 80px;
+}
+
+/*Formatações específicas*/
+.centralizar {
+	margin: 0 auto;
+}
+
+.centralizar_texto {
 	text-align: center;
-	padding: 15px;
-	background: #CCC;
+}
+
+.maiusculo {
+	text-transform:uppercase;
+}
+
+.clear {
+	clear: both;
+}
+
+.branco {
+	color: #fff;
 }
 
 
-
-/*
-****   Formatações Do Menu   ****
-*/
-
-a {
-	text-decoration: none;
-}
-
- a:link,  a:visited {
-	color: #f7b600;
-	
-}
- a:hover  {
-	text-decoration: underline;
-}
-
-
-#area-cabecalho a:link, #area-cabecalho a:visited {
-	color: #FFF;
-	padding: 8px 12px;
-}
-
-#area-cabecalho a:hover  {
-	color: #f7b600;
-	background: #FFF; 
-	text-decoration: none;
-
-}
-
-
-/*
-****   Formatações Gerais   ****
-*/
-
-
-
-h1 {
-	color: #4e4e4e;
-	font-style: 2.5em;
-
-}
-
-h2 {
-	color: #f7b600;
-}
-
-h3 {
-	color: #565656;
-	background: #CCC;
-	padding: 5px;
-}
-
-.branco  {
-	color: white;
-
-}
-
-.data-postagem {
-	font-size: 0.8em;
-	border-bottom: 1px solid #f4f4f4;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	display: block;
-}
-
-
-
+/*Texto*/
 
 
 
